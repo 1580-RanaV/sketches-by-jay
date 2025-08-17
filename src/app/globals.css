@@ -90,3 +90,15 @@
   scrollbar-width: thin;                 /* makes scrollbar thin */
   scrollbar-color: rgba(0,0,0,0.3) transparent; /* thumb + track */
 }
+
+/* app/globals.css */
+html, body {
+  background-color: #fff;   /* fallback if body class missed */
+}
+
+:root { 
+  color-scheme: light;      /* prevents dark-mode engines from using black page bg */
+}
+
+/* If you still want bounce but no black flash, keep overscroll and add a white backplate */
+

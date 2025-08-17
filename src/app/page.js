@@ -155,7 +155,7 @@ const Page = () => {
           }`}
         >
           <div
-            className={`max-w-2xl bg-white/80 backdrop-blur-sm rounded-2xl p-8 transition-all duration-1000 delay-800 ${
+            className={`max-w-2xl backdrop-blur-sm rounded-2xl p-8 transition-all duration-1000 delay-800 ${
               animationPhase === "complete"
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-8"
