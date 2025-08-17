@@ -161,7 +161,7 @@ const Page = () => {
                 : "opacity-0 translate-y-8"
             }`}
           >
-            <p className="font-regular text-xs leading-relaxed text-black text-justify">
+            <p className="font-regular text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed text-black text-justify">
               Hi,<br />
               Welcome to my creative space where imagination meets artistry. Each concept here is a unique sketch that tells a 
               story—capturing moments of inspiration and translating them into visual narratives. Through careful observation and 
