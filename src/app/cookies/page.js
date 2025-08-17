@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import BackButton from "../component/BackButton";
 
 const Page = () => {
   return (
@@ -17,10 +18,11 @@ const Page = () => {
 
       {/* Content */}
       <div className="min-h-screen flex flex-col items-center justify-center bg-white text-black px-4">
-        <p className="text-lg font-regular text-gray-700">
+        <p className="text-xs sm:text-sm md:text-lg font-regular text-gray-700 text-center">
           We do not collect or use cookies on this website. Cheers.
         </p>
       </div>
+      <BackButton />
     </div>
   );
 };

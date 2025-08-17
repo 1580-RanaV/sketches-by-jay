@@ -12,7 +12,7 @@ const Page = () => {
   useEffect(() => {
     if (animationPhase === "loading") {
       let intervalCount = 0;
-      const maxIntervals = 120; // 3 seconds at 25fps
+      const maxIntervals = 60; // 3 seconds at 25fps
 
       const interval = setInterval(() => {
         intervalCount++;
@@ -246,7 +246,7 @@ const Page = () => {
             "
           >
             {/* Left: Brand or Copyright */}
-            <p className="text-gray-500 text-sm">
+            <p className="text-black text-sm">
               © {new Date().getFullYear()} Sketches by Jay. All rights reserved.
             </p>
 
@@ -258,12 +258,12 @@ const Page = () => {
               >
                 Contact
               </a>
-              <a
+              {/* <a
                 href="/privacy"
                 className="text-gray-600 hover:text-gray-900 transition-colors text-sm"
               >
                 Privacy Policy
-              </a>
+              </a> */}
               <a
                 href="/cookies"
                 className="text-gray-600 hover:text-gray-900 transition-colors text-sm"

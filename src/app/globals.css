@@ -101,4 +101,7 @@ html, body {
 }
 
 /* If you still want bounce but no black flash, keep overscroll and add a white backplate */
-
+::selection {
+  background-color: black;
+  color: white;
+}
